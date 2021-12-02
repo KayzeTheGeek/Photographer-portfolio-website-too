@@ -1,0 +1,100 @@
+/*----------------------
+        media query
+----------------------*/
+@media all and (max-width: 1420px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
+
+
+@media all and (max-width: 1200px){
+    /* everything acceptable */
+}
+
+
+
+@media all and (max-width: 991px){
+     /* everything acceptable */
+}
+
+
+
+
+@media all and (max-width: 768px){
+    .heading-div{
+        flex-direction: column
+    }
+    .nav-menu{
+        margin-bottom: 30px;
+    }
+    .nav-menu a{
+        font-size: 18px;
+        padding: 5px;
+        margin: 0 10px;
+    }
+    .my-images{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+        margin: 0 aut0;
+        margin-bottom: 50px;
+    }
+    .portfolio img{
+        width: 48%;
+    }
+    .blog-text img{
+        float: none;
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    form input, textarea{
+        width: 95%;
+    }
+}
+
+
+
+@media all and (max-width: 480px){
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav-menu{
+        display: flex;
+        width: 100wh;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -120px;
+    }
+    .nav-menu a{
+        font-size: 24px;
+        margin: 20px;
+    }
+    .hamburger-menu{
+        display: inline;
+    }
+}
+
+
+
+@media all and (max-width: 320px){
+    /* everything acceptable */
+}
+
+
+
+
+
+
+
+
+
+
+
